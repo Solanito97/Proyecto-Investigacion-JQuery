@@ -7,7 +7,6 @@ let nombreModuloCrear = 'Profesor';
 let formularioEditar = document.getElementById('formularioEditar');
 let formularioEliminar = document.getElementById('modalEliminar');
 
-
 let url= "https://paginas-web-cr.com/Api/apis/";
 let listar = "ListaProfesores.php";
 let insertar = "InsertarProfesores.php";

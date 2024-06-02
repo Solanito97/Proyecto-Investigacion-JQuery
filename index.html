@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Home</title>
+        <title>Inicio</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -16,41 +16,75 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="Style.css">
     </head>
 
     <body>
         <div
-            class="container-fluid min-vh-100"
+            class="container-fluid"
         >
             <header>
-                <div id="contenedormenu">
-                    <link rel="shortcut icon" href="#"
-
-                </div>
+                <div id="menu">
+                  
+                </div>       
             </header>
             <main>
-                <div
-                    class="container-fluid min-vh-100"
-                >
-                    <div
-                        class="row"
-                    >
-
+                <div class="container min-vh-100">
+                  <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                      <header class="mt-5">
+                        <h1 class="display-4 mb-5">Accesos Directos</h1>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                              <div class="card">
+                                <img src="https://clubpreparatoriano.com/images/estudiar.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lista de Estudiantes</h5>
+                                  <a href="/Estudiantes/estudiantes.html" class="btn btn-info">Estudiantes</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card">
+                                <img src="https://www.paho.org/sites/default/files/styles/max_1500x1500/public/2022-04/online-learning.jpg?itok=mIH1uN6D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lista de Cursos</h5>
+                                  <a href="/Cursos/cursos.html" class="btn btn-info">Cursos</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card">
+                                <img src="https://img.europapress.es/fotoweb/fotonoticia_20231005103145_690.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lista de Profesores</h5>
+                                  <a href="/Profesores/profesores.html" class="btn btn-info">Profesores</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card">
+                                <img src="https://apuntesdetrabajosocial.com/wp-content/uploads/2023/02/chair-circle-g0f1771b58_1280-1030x686.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lista de Grupos</h5>
+                                  <a href="/Grupos/grupos.html" class="btn btn-info">Grupos</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </header>
                     </div>
-                    
+                  </div>
                 </div>
-                
-            </main>
+              </main>
             <footer>
-                <div id="contenedorpie">
+                <!-- place footer here -->
+                <div id="piedepagina">
 
                 </div>
             </footer>
         </div>
         
-        <!-- Seccion de archivos -->
-        <script src="/menu.js"></script>
-
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -63,5 +97,7 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
+        <script src="js/menu.js"></script>
     </body>
 </html>
